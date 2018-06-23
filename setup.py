@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 setup(
         name='waboxapp',
         packages=find_packages(),
+        scripts=["bin/waboxapp"],
         version='0.1',
         description='Waboxapp library for accessing waboxapp.com api',
         author='Cristiano W. Araujo',
